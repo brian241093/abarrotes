@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>El Almacén</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Logo El Almacén" class="logo" />
+    <h1>El Almacén</h1>
+  </header>
+
+  <main>
+    <section class="producto-principal">
+      <img src="platano.jpg" alt="Plátano" class="producto-img" />
+      <div class="producto-detalle">
+        <h2>Plátano</h2>
+        <p class="precio">$200</p>
+        <button onclick="agregarAlCarrito('Plátano', 200)">Agregar al carrito</button>
+        <button onclick="comprarAhora('Plátano', 200)">Comprar</button>
+      </div>
+    </section>
+
+    <section class="galeria">
+      <h3>Otros productos</h3>
+      <div class="miniaturas">
+        <a href="termo.html" target="_blank" class="mini">
+          <img src="termo.png" alt="Termo" />
+          <p>Termo - $400</p>
+        </a>
+        <a href="jabon.html" target="_blank" class="mini">
+          <img src="jabon.jpg" alt="Jabón" />
+          <p>Jabón - $100</p>
+        </a>
+        <a href="aceite.html" target="_blank" class="mini">
+          <img src="aceite.jpg" alt="Aceite de Oliva" />
+          <p>Aceite de Oliva - $1300</p>
+        </a>
+        <a href="naranja.html" target="_blank" class="mini">
+          <img src="naranja.jpg" alt="Naranja" />
+          <p>Naranja - $100</p>
+        </a>
+        <a href="fresa.html" target="_blank" class="mini">
+          <img src="fresa.jpg" alt="Fresa" />
+          <p>Fresa - $500</p>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 El Almacén. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
